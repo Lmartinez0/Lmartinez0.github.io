@@ -1,17 +1,30 @@
 body {
-    
-    background: rgb(243, 174, 229);
-    margin: 0%;
-    }
-    
-    header {
-    
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 20px 25px;
+        background-color: rgb(243, 174, 229);
+      }
+      #wrapper {
         background-color: rgb(129, 180, 81);
+      }
+      h1 {
+        background-color: rgb(243, 174, 229);
+      }
+      ul {
         text-align: center;
+      }
+      h1, p {
+        text-align: center;
+     
+      }
+    h2, p {
+      text-align: center;
+   
+    }
+      li {
+        display: inline;
+        padding: 0.5em;
+      }
+      #nav, #footer {
+        background-color: #e0debb;
+        padding: 0.5em 0;
     
-    }
-    h1{
-        text-align: center;
-    }
+        
+      }
