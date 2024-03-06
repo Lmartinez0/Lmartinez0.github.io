@@ -12,6 +12,8 @@ body {
       }
       h1, p {
         text-align: center;
+        color: blueviolet;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      
       }
     h2, p {
@@ -22,9 +24,94 @@ body {
         display: inline;
         padding: 0.5em;
       }
-      #nav, #footer {
-        background-color: #e0debb;
-        padding: 0.5em 0;
-    
-        
+      * {
+        margin: 0;
+        padding: 0;
       }
+      body {
+        background-color: rgb(243, 174, 229);
+        font-family: "Helvetica", Arial, sans-serif;
+        /*   min-height: 100vh; */
+      }
+      nav {
+        background-color: rgb(129, 45, 100);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        position: sticky;
+        top:0;
+      }
+      
+      nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+      }
+      
+      nav li {
+        height: 50px;
+      }
+      nav a {
+        height: 100%;
+        padding: 0 30px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: #000;
+      }
+      
+      nav a:hover {
+        background-color: #ab628f;
+        color:rgb(237, 239, 201);
+      }
+      
+      nav li #active{
+        background-color:rgb(27, 74, 84);
+        color:rgb(157, 221, 242);
+      }
+      
+      /* The code below styles the Home link using the pseudo-selector first-child (the first list item of the nav element). The nav element is the parent to all the li elements. */
+      
+      nav li:first-child {
+        margin-right: auto;
+        background-color: #8ae5ef;
+      }
+      nav li:first-child a {
+        color: #3f1133;
+        font-weight: 800;
+      }
+      nav li:first-child a:hover {
+        background-color: #3ad36f;
+        color: #000;
+      }
+      
+      /* Typography Styles */
+      
+      h1,h2,h3,h4,h5,h6{
+        color:#444;
+        letter-spacing:0.02em;
+        padding-bottom:10px;
+      }
+      
+      p {
+        font-size:1em;
+        line-height:1.4em;
+      }
+      
+      /* Layout Styles */
+      
+      .A {
+      /*   background-color:rgba(0,0,0,0.1); */
+        margin:50px 0px;
+        padding:20px 30px;
+      }
+      
+      .textbox-reg {
+        max-width:60%;
+      }
+      
+      
+      
+      /* Images Styles */
+      
+      
+      
