@@ -12,7 +12,7 @@ body {
       }
       h1, p {
         text-align: center;
-        color: blueviolet;
+        color: rgb(105, 47, 94);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      
       }
@@ -30,7 +30,7 @@ body {
       }
       body {
         background-color: rgb(243, 174, 229);
-        font-family: "Helvetica", Arial, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         /*   min-height: 100vh; */
       }
       nav {
@@ -56,49 +56,53 @@ body {
         text-decoration: none;
         display: flex;
         align-items: center;
-        color: #000;
+        color: rgb(255, 210, 242);
       }
       
       nav a:hover {
         background-color: #ab628f;
-        color:rgb(237, 239, 201);
+        color:rgb(255, 255, 255);
       }
       
       nav li #active{
-        background-color:rgb(27, 74, 84);
+        background-color:rgb(242, 237, 246);
         color:rgb(157, 221, 242);
       }
-      
-      /* The code below styles the Home link using the pseudo-selector first-child (the first list item of the nav element). The nav element is the parent to all the li elements. */
-      
+
       nav li:first-child {
         margin-right: auto;
-        background-color: #8ae5ef;
+        background-color:rgb(255, 250, 227);
       }
       nav li:first-child a {
-        color: #3f1133;
+        color: #e164c2;
         font-weight: 800;
+        ;
       }
       nav li:first-child a:hover {
-        background-color: #3ad36f;
+        background-color: rgb(129, 180, 81);
         color: #000;
       }
       
       /* Typography Styles */
       
       h1,h2,h3,h4,h5,h6{
-        color:#444;
+        color:#4d144e;
         letter-spacing:0.02em;
         padding-bottom:10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      a:link, a:visited {
+        text-decoration: none;
       }
       
+      a:link, a:active {
+        text-decoration: none;
+      }
       p {
         font-size:1em;
         line-height:1.4em;
       }
-      
-      /* Layout Styles */
-      
+            
       .A {
       /*   background-color:rgba(0,0,0,0.1); */
         margin:50px 0px;
@@ -108,10 +112,23 @@ body {
       .textbox-reg {
         max-width:60%;
       }
-      
-      
-      
+      main{
+        align-items: center;
+      }
       /* Images Styles */
+
+       .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          background-color: rgb(129, 180, 81);
+          padding: 10px;
+        }
+        .grid-item {
+          background-color: rgba(250, 222, 245, 0.8);
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+        }
       
       
       
